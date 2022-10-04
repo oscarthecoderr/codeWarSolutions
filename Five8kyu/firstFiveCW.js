@@ -63,3 +63,17 @@ function opposite(number) {
 function greet(){
   return "hello world!"
 }
+
+//9. Convert a Number to a String!
+//We need a function that can transform a number (integer) into a string.
+
+function numberToString(num) {
+  return num.toString()
+}
+
+//10. Reversed Strings
+//Complete the solution so that it reverses the string passed into it.
+
+function solution(str){
+  return str.split('').reverse().join('')
+}
