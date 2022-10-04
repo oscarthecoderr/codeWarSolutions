@@ -49,3 +49,17 @@ function even_or_odd(number) {
     return 'Odd'
   }
 }
+
+//7. Opposite number
+// Very simple, given an integer or a floating-point number, find its opposite.
+
+function opposite(number) {
+  return -1 * number
+}
+
+//8. Function 1 - hello world
+//Make a simple function called greet that returns the most-famous "hello world!".
+
+function greet(){
+  return "hello world!"
+}
