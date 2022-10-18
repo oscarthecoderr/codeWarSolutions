@@ -96,3 +96,20 @@ function removeEveryOther(arr){
 function arrayPlusArray(arr1, arr2) {
   return arr1.concat(arr2).reduce((acc, cur) => acc + cur);
 }
+
+
+//12. Convert boolean values to strings 'Yes' or 'No'.
+
+//Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
+
+function boolToWord( bool ){
+  if (bool){
+    return'Yes'
+  }else{
+    return 'No'
+  }
+ }
+ // adding a boolean(true or false) value inside the code block. 
+ // return 'Yes' boolean true or 'No'string for false
+ 
+ // this is the name as return bool ? 'Yes' : 'No'
