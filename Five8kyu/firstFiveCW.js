@@ -132,3 +132,26 @@ class SmallestIntegerFinder {
   }
    
 }
+// 15. 8 kyu 
+//Sum of positive
+function positiveSum(arr) {
+  let answer = 0
+ for(let i = 0 ; i < arr.length ; i+=1){
+  if(arr[i] > 0){
+    console.log(arr[i])
+    answer += arr[i]
+  }   
+ }
+
+ return answer
+}
+
+// the parameter is giving me an array of numbers
+// we want to return the sum of all positive numbers
+// [1,-4,7,12] => 1+7+12 = 20
+// create a variable called answer initialized to 0
+// loop through all the numbers in the array
+//      check each number if its positive (> 0)
+   //  if its true, add the number to variable answer
+
+// return answer
