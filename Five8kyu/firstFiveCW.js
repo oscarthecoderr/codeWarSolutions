@@ -120,3 +120,15 @@ function boolToWord( bool ){
  function makeNegative(num) {
   return -Math.abs(num)
 }
+
+// 14. Find the smallest integer in the array
+//Given an array of integers your solution should find the smallest integer.
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+//    args = Math.min()
+//    return args
+    console.log(Math.min(...args))
+   return Math.min(...args)
+  }
+   
+}
